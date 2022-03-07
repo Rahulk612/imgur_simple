@@ -1,0 +1,241 @@
+* {
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+body {
+  background-color: #2e3035;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  height: 400px;
+}
+.imgurBackgound {
+  background: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png);
+  background-size: cover;
+  margin-top: -1%;
+  max-width: 100%;
+  height: 400px;
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.iconimgur {
+  padding: 20px 25px;
+}
+
+.newPost {
+  text-align: center;
+  height: 20px;
+  padding: 7px 10px 10px 7px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100px;
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5%;
+}
+
+.navBar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.IconandNewPost {
+  height: 70px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstDiv {
+  display: flex;
+  /* align-items: center; */
+}
+
+.inputDiv input {
+  height: 22px;
+  margin-top: 3%;
+  border-radius: 3px;
+  width: 400px;
+  display: inline-block;
+  align-items: center;
+
+  background-color: #ffffff40;
+  border-color: rgb(133, 133, 133);
+  border: 1px solid transparent;
+  padding: 8px 35px 8px 10px;
+}
+
+.inputDiv button {
+  border: none;
+  border: 1px solid red;
+  /* margin-left: -40px; */
+  height: 32px;
+  margin-top: 2%;
+  background-color: transparent;
+}
+
+.searchBtn {
+  cursor: pointer;
+  border: none;
+  margin-left: -6%;
+  height: 32px;
+  margin-top: 2%;
+  background-color: transparent;
+}
+
+.secondNav {
+  display: flex;
+  gap: 20px;
+}
+
+.Addfree {
+  height: 20px;
+  width: 100px;
+  padding: 8px 10px;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: #6432f9;
+  margin-top: 2%;
+}
+
+.notifications {
+  margin-top: 2%;
+}
+
+/* .boxesforsignup {
+  border: 1px solid red;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+} */
+
+.signin {
+  height: 20px;
+  width: 100px;
+  margin-top: 2%;
+  font-weight: 700;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+.Signup {
+  height: 20px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100px;
+  color: white;
+  margin-top: 2%;
+  margin-left: -5%;
+  padding: 8px 10px;
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+}
+
+.indCard {
+  cursor: pointer;
+  background-color: #474a51;
+  border-radius: 5px;
+}
+
+.indCard:hover {
+  background-color: dimgray;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px 0px;
+}
+.cardImg {
+  object-fit: auto;
+  width: 100%;
+  height: 400px;
+}
+
+i {
+  color: lightgray;
+}
+
+.cometsDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  color: lightgray;
+}
+
+.iconPlusCount {
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+  justify-content: center;
+  color: lightgray;
+}
+
+#cards {
+  margin-top: -100px;
+  display: grid;
+
+  width: 100%;
+  justify-content: center;
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-flow: dense;
+  gap: 20px;
+}
+
+.discComments {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cardTitle {
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.debounce {
+  border: 1px solid aqua;
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #2e3035;
+  display: none;
+}
+
+.debounce p {
+  /* border-bottom: 1px solid lightgray; */
+  padding: 0px 8px;
+  color: lightgray;
+  cursor: pointer;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 25px;
+}
